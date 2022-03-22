@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    background-image: url(math.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(52,66,94);
+}
+.container{
+    
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 120px;
+}
+.containerA{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.containerB{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding: 50px;
+   
+}
+
+input{
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+input::placeholder{
+    color: white;
+}
+.result{
+    margin-top: 10px;
+    font-size: 30px;
+
+}
+@media screen and (max-width: 500px) {
+    body{
+        background-image: none;
+        color: white;
+    }
+    input{
+        width: 150px;
+    }
+}
